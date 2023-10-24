@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>MyShop</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <header></header>
+
+    <div class="main-content">
+
+        <div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+
+            <table cellspacing="0">
+                <tr>
+                    <th style="width: 30px;">No.</th>
+                    <th style="width: 50px;"></th>
+                    <th>Nazwa</th>
+                    <th>Ilość</th>
+                    <th>Suma</th>
+                    <th style="width: 30px;"></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img>
+                    </td>
+                    <td></td>
+                    <td style="display: flex; padding-top: 10px">
+                        <a class="mbtn">-</a>
+                        <p></p>
+                        <a class="mbtn">+</a>
+                    </td>
+                    <td"></td>
+                    <td>
+                        <a class="mbtn">X</a>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="summary">
+                <p><span>Do zapłaty</span><span></span> zł</p>
+            </div>
+            <a class="add-btn">Dalej</a>
+        </div>
+    </div>
+</body>
+</html>
